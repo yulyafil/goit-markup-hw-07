@@ -94,6 +94,9 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
   }
+  &-field:focus > &-input {
+    border: 1px solid $accent-text-color;
+  }
   &-input:not(:placeholder-shown) + &-label {
     transform: translate(-30px, -40px);
   }

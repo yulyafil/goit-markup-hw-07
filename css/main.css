@@ -666,6 +666,10 @@ ul .site-nav,
   border-radius: 4px;
 }
 
+.form-field:focus > .form-input {
+  border: 1px solid #2196f3;
+}
+
 .form-input:not(:placeholder-shown) + .form-label {
   -webkit-transform: translate(-30px, -40px);
           transform: translate(-30px, -40px);
